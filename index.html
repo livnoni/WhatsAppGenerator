@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <link rel='stylesheet' type='text/css' href='style.css' />
+    <title>WhatsApp Message Generator</title>
+</head>
+<body>
+    <div class='app-container'>
+        <h3>WhatsApp Message Generator</h3>
+        <div class="input-container">
+            <div class="input-data">
+                <label>Name:</label>
+                <input id="name_input" type="text"/>
+            </div>
+            <div class="input-data">
+                <label>Phone Prefix:</label>
+                <input id="prefix_input" type="text"/>
+            </div>
+            <div class="input-data">
+                <label>Phone Number:</label>
+                <input id="number_input" type="number"/>
+            </div>
+            <div class="input-data">
+                <label>Start With:</label>
+                <input id="start_with_input" type="text"/>
+            </div>
+            <div class="message-edit-container">
+                <label>Message:</label>
+                <textarea id="message_text_area" rows="5"></textarea>
+            </div>
+        </div>
+        <button class="button-generate" onclick="generate()">GENERATE LINK</button>
+        <div class="result">
+            <a class="link" id="link"/>
+        </div>
+    </div>
+
+</body>
+<script type="text/javascript" src="index.js"></script>
+
+</html>

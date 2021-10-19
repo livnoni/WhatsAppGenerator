@@ -1,0 +1,33 @@
+/*for destop:*/
+*{
+    font-size: 55px;
+    font-size: 1.5vw;
+}
+/*for mobile:*/
+@media only screen and (max-width: 600px) {
+    *{
+        font-size: 55px;
+        font-size: 5.5vw;
+    }
+}
+
+.app-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-generate {
+    margin-top: 5vw;
+}
+
+.message-edit-container {
+    display: flex;
+    flex-direction: column;
+}
